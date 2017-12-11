@@ -1,0 +1,143 @@
+header {
+  background-image: url(header_bg.jpg);
+  width: 90%;
+  height: 350px;
+  display: inline-block;
+  color: white;
+  padding-top: 100px;
+}
+
+header.logo {
+  float: left;
+  font-weight:bolder;
+}
+
+main {
+  background-color: #f0efef;
+  width: 90%;
+  height: 300px;
+  display: inline-block;
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-top: 2px solid black
+  border-bottom: 2px solid black
+}
+
+h2 { font-size: 24px;}
+
+
+body {
+  text-align: center;
+  margin: auto;
+  font-family: Open Sans;
+  line-height: 30px;
+}
+
+section {
+  background-image: url(testimonial_bg.jpg);
+  width: 90%;
+  height: 300px;
+  color: white;
+  display: inline-block;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.first {
+  height: 50px;
+  width: 200px;
+  background-color: #f9e42e;
+  display: block;
+  text-align: center;
+  margin: auto; 0;
+  text-decoration-color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h6 {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: lighter;
+  font-style: italic;
+  line-height: 40px;
+
+}
+
+h3 {
+  font-size: 30px;
+}
+
+div{
+  background-color: #f9e42e;
+  width: 90%;
+  height: 80px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+}
+
+.second {
+  height: 50px;
+  width: 200px;
+  background-color: #033048;
+  display: block;
+  text-align: center;
+  margin: auto; 0;
+  text-decoration-color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1.bottom-logo {
+  text-decoration-color: #f9e42e;
+}
+
+footer {
+  background-color: #121212;
+  width: 90%;
+  height: 200px;
+  display: inline-block;
+  color: #f9e42e;
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 20px;
+}
+
+ul.social {
+  list-style: none;
+  display: inline-block;
+}
+
+.product-info {
+  font-weight: light;
+  font-size: 13px;
+  text-decoration-color: #606161;
+}
+
+ul.features {
+  font-weight: light;
+  font-size: 13px;
+  padding-left: 100px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+p.copywrite {
+text-decoration-color: white;
+font-size: 9px;
+}

@@ -10,7 +10,7 @@ For today, we'll be making a simplified version of the site which uses only one 
 benefits background color: #f0efef
 yellow: #f9e42e
 dark blue: #033048
-light grey: #606161
+light grey: 
 almost black: #121212
 
 Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
@@ -33,3 +33,16 @@ Weight: Light, Light Italic, Semibold, Extrabold
 
 Relaxr - extra bold, 24px
 "Copyright 2015. Relaxr." - 9px, semibold
+
+
+How do I make the text white in the second button?
+How do I align the social icons?
+How do I make all the elements the same width?
+Why won’t the font colour in .product-info change to #606161?
+Why can’t I make the .copywrite white?
+
+
+
+
+Stuck: 
+"Get it Now" - Extra bold, 14px. 5px border radius

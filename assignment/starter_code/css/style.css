@@ -54,20 +54,32 @@ body {
       background-size: cover;
 }
 
+h1 { color: white;
+font-weight: bolder;}
+
+.footer-logo { color: #f9e42e;}
+
+.sign-up { color: white;}
+
+section
+{
+  background-color: #f9e42e;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 100%;
+div {
+  width: 90%;
   margin: auto;
   height: 500px;
-
+  display: inline-block;
+  align-items: center;
 }
 
-header {
+main { background-color: #f0efef;
 
 }
 
@@ -78,7 +90,3 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
