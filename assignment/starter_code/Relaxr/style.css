@@ -1,38 +1,44 @@
 header {
   background-image: url(header_bg.jpg);
   width: 90%;
-  height: 350px;
+  height: 400px;
   display: inline-block;
   color: white;
-  padding-top: 100px;
 }
 
-header.logo {
-  float: left;
-  font-weight:bolder;
+.logo { font-size: 3rem;
+display: inline;
+text-align: left;
+float:left;
+margin-left: 30px;
+margin-top: 30px;
 }
+
+.clear-float {
+clear: both;
+}
+
 
 main {
   background-color: #f0efef;
   width: 90%;
-  height: 300px;
+  height: 400px;
   display: inline-block;
   text-align: left;
-  padding-left: 30px;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  border-top: 2px solid black
-  border-bottom: 2px solid black
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font-size: 1rem;
 }
 
-h2 { font-size: 24px;}
+h2 { font-size: 2rem;
+margin-top: 150px;}
 
 
 body {
   text-align: center;
   margin: auto;
   font-family: Open Sans;
-  line-height: 30px;
+  line-height: 2rem;
 }
 
 section {
@@ -46,6 +52,9 @@ section {
 h3 {
   font-size: 20px;
   font-weight: bold;
+  padding-left: 3rem;
+  font-size: 2rem;
+  padding-top: 2rem;
 }
 
 .first {
@@ -56,25 +65,21 @@ h3 {
   text-align: center;
   margin: auto; 0;
   text-decoration-color: white;
-  font-size: 14px;
+  font-size: 1em;
   font-weight: bold;
 }
 
 h6 {
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 40px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 2rem;
   margin-bottom: 0;
   font-style: italic;
-  font-size: 18px;
+  font-size: 1.5rem;
   font-weight: lighter;
   font-style: italic;
   line-height: 40px;
 
-}
-
-h3 {
-  font-size: 30px;
 }
 
 div{
@@ -93,7 +98,7 @@ div{
   display: block;
   text-align: center;
   margin: auto; 0;
-  text-decoration-color: white;
+  color: white;
   font-size: 14px;
   font-weight: bold;
   margin-top: 20px;
@@ -107,7 +112,7 @@ h1.bottom-logo {
 footer {
   background-color: #121212;
   width: 90%;
-  height: 200px;
+  height: 150px;
   display: inline-block;
   color: #f9e42e;
   text-align: center;
@@ -117,27 +122,34 @@ footer {
 
 ul.social {
   list-style: none;
-  display: inline-block;
+  display:block;
+  text-align: center;
 }
 
 .product-info {
   font-weight: light;
-  font-size: 13px;
+  font-size: 1rem;
   text-decoration-color: #606161;
+  font-size: 1.5rem;
+  padding-left: 3rem;
 }
 
 ul.features {
   font-weight: light;
-  font-size: 13px;
-  padding-left: 100px;
+  font-size: 1rem;
+  padding-left: 5rem;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 2rem;
   font-weight: normal;
 }
 
 p.copywrite {
-text-decoration-color: white;
-font-size: 9px;
+color: white;
+font-size: 0.7rem;
+}
+
+.social li {
+display: inline-block;
 }
